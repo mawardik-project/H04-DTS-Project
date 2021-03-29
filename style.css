@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: white;
+}
+
+.header {
+	height: 90px;
+	background-color: #EEB2B9;
+	position: fixed;
+	z-index: 5000;
+	width: 100%;
+	margin-bottom: 100px;
+	margin-top: 0;
+}
+
+.header-left {
+	float: left;
+	margin-top: 20px;
+	padding-left: 92px;
+}
+
+.header-right ul {
+	margin-right: 0px;
+}
+
+.header-right li {
+	list-style: none;
+	float: left;
+	padding-right: 32px;
+	color: white; 
+}
+
+li span {
+	background-image: linear-gradient(to right, #E26977 0%, #E269c6 100%);
+	padding: 13px 26px;
+	border-radius: 20px;
+
+}
+
+.header-right {
+	float: right;
+	font-family: 'linotte-semibold';
+	padding-right: 93px;
+	padding-top: 20px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.main-header {
+	height: 763px;
+	background-image: url('Library/Main header/Background.png');
+	background-size: cover;
+	width: 100%;
+}
+
+.content {
+	padding-top: 200px;
+	text-align: center;
+}
+
+.content h1 {
+	font-size: 62px;
+	font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: #E26977;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+	font-size: 22px;
+	font-family: 'linotte-regular';
+    src: url('linotte_regular-webfont.woff2') format('woff2'),
+         url('linotte_regular-webfont.woff') format('woff');
+    margin-bottom: -10px;
+}
+
+.content h2 {
+	font-size: 22px;
+	font-family: 'linotte-regular';
+    src: url('linotte_regular-webfont.woff2') format('woff2'),
+         url('linotte_regular-webfont.woff') format('woff');
+    margin-bottom: 50px;
+}
+
+.btn a {
+	background-image: linear-gradient(to right, #E26977 0%, #E269c6 100%);
+	padding: 15px 30px;
+	border-radius: 30px;
+	font-family: 'linotte-semibold';
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.template-title {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.template-title h2 {
+	font-size: 48px;
+	font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+    color: #E26977;
+    margin-bottom: 0px;
+}
+
+.template-title h3 {
+	font-size: 22px;
+	color: #B8B8B8;
+	font-family: 'linotte-regular';
+	margin-bottom: 20px;
+}
+
+.template-title img {
+	opacity: 0.5;
+}
+
+.template1 {
+	margin-top: 50px;
+	text-align: center;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+
+.template {
+	padding: 10px;
+	display: inline-block;
+}
+
+.card {
+	position: relative;
+}
+
+.template p {
+font-size: 26px;
+font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+top: 80%;
+margin-top: -40px;
+}
+
+
+
+
+.testimoni {
+	text-align: center;
+	height: 680px;
+	background-image: url(Library/testimoni/background.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.testimoni-1 {
+	display: inline-block;
+	margin-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.komentar {
+	
+	padding-bottom: 20px;
+	
+}
+
+.title {
+	text-align: center;
+	padding-top: 92px;
+	color: white;
+}
+
+.title h1 {
+	font-size: 48px;
+	font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+    letter-spacing: 1px;
+}
+
+.title h3 {
+	font-size: 22px;
+	font-family: 'linotte-semibold';
+	padding-bottom: 60px;
+
+}
+
+
+.kontak {
+	height: 228px;
+	background-color: white;
+}
+
+.kontak-title h1 {
+	font-size: 48px;
+	font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+    letter-spacing: 1px;
+    padding-top: 80px;
+    padding-left: 194px;
+}
+
+.kontak-btn a {
+	float:right;
+	background-image: linear-gradient(to right, #E26977 0%, #E269c6 100%);
+	padding: 15px 42px;
+	border-radius: 30px;
+	font-family: 'linotte-semibold';
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	margin-right: 190px;
+	margin-top: -80px;
+}
+
+.footer {
+	height: 300px;
+	border-top: 100px;
+	display: inline-flex;
+	border-top: 1px solid #eee;
+	width: 100%;
+	border-top-width: 100%;
+}
+
+.logo-footer {
+	padding-top: 50px;
+	padding-left: 82px;
+}
+
+.menu-list {
+	float: left;
+	padding-top: 30px;
+	padding-left: 140px;
+}
+.menu-list li {
+	list-style: none;
+	font-family: 'linotte-semibold';
+	color: #E26977;
+	padding-top: 12px;
+}
+
+.email-phone {
+	float: left;
+	padding-top: 30px;
+	padding-left: 100px;
+}
+
+.email-phone li {
+	list-style: none;
+	font-family: 'linotte-semibold';
+	color: #E26977;
+	padding-top: 12px;
+}
+
+li.telp {
+	color: #4B4B4B;
+}
+
+.social-media {
+	padding-top: 35px;
+	font-family: 'linotte-semibold';
+	color: #4B4B4B;
+	margin-right: 0;
+}
+
+.sosmed p{
+	padding-left: 230px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+.list {
+	padding-left: 130px;
+}
+
+.sosmed-list ul {
+	margin-right: 0px;
+}
+.sosmed-list li {
+	list-style: none;
+	float: left;
+	padding-left: 12px;
+	margin-top: -5px;
+}
